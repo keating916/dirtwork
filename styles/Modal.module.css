@@ -1,0 +1,42 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal.false {
+    display: none;
+    position: fixed;
+    z-index: -1; /* Sits below */
+    left:0;
+    top:0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    opacity:0
+}
+
+.modal.true {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    opacity:1
+}
+
+.modalImg {
+    max-height: 90vh;
+    max-width: 100vw;
+    align-self: center;
+}
