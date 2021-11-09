@@ -37,7 +37,7 @@ export class Gallery extends Component {
 						name="description"
 						content="Contact page for G&amp;C Excavation Services"
 					/>
-					<meta name="keywords" content="" />
+					<meta name="keywords" content="dirt work gallery, gallery, g&amp;c gallery" />
 				</Head>
 				<Header title="Gallery" />
 

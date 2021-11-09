@@ -39,7 +39,7 @@ class Home extends Component {
 						name="description"
 						content="Home page for G&amp;C Excavation Services"
 					/>
-					<meta name="keywords" content="" />
+					<meta name="keywords" content="dirt work, dirt excavation, excavation services" />
 				</Head>
 				<Header title="G&amp;C Dirt Moving Services" />
 				<div>

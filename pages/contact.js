@@ -11,7 +11,7 @@ export default function Contact() {
 					name="description"
 					content="Contact page for G&amp;C Excavation services"
 				/>
-				<meta name="keywords" content="" />
+				<meta name="keywords" content="Contact, G&amp;C Contact, dirt work contact" />
 			</Head>
 			<Header title="Contact Us" />
 			<div className="container">

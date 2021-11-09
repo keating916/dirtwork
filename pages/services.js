@@ -14,7 +14,7 @@ export class Services extends Component {
 						name="description"
 						content="Services List for G&amp;C Excavation Services"
 					/>
-					<meta name="keywords" content="" />
+					<meta name="keywords" content="excavation services, dirt services, demolition services, demo services, grading services" />
 				</Head>
 				<Header title="Services Offered" />
 				<div>
