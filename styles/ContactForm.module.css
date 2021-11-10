@@ -17,3 +17,7 @@
     width: 90vw;
     border: 1px solid black;
 }
+
+.formContainer > div > * {
+    display: inline-block;
+}
