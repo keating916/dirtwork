@@ -31,7 +31,7 @@ export default class ContactForm extends Component {
     handleSubmit(evt) {
         evt.preventDefault()
         let { fname, lname, contactEmail, contactPhone, address, comments, pcm } = this.state
-        let params = {fname: fname, lname:lname, contactEmail:contactEmail, contactPhone:contactPhone, address:address, comments:comments, pcm:pcm }
+        let params = {fname: fname, lname:lname, contactEmail:contactEmail, contactPhone:contactPhone, address:address, comments:comments, pcm:pcm, site:"Dirt Work" }
         this.setState({
             ...this.state, 
             error: false
